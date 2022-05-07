@@ -1,0 +1,8 @@
+FROM node:14-alpine
+
+COPY packaje.json .
+COPY packaje-lock.json .
+COPY server.js .
+COPY routes routes
+
+CMD ["npm", "start"]
