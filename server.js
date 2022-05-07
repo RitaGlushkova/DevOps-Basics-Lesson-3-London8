@@ -1,7 +1,5 @@
 const express = require('express')
 const { indexHandler, sayHelloHandler } = require('./routes/handlers')
-
-
 const app = express();
 const port = 3000;
 
